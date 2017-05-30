@@ -1,0 +1,5 @@
+---
+mkdir:
+- [ { path: "/home/copm/gbd", mode: 755, owner: "sopm", group: "staff" } ]
+- [ { path: "/home/copm/grd", mode: 755, owner: "sopm", group: "staff" } ]
+- [ { path: "/home/copm/rej", mode: 755, owner: "sopm", group: "staff" } ]

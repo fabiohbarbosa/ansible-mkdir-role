@@ -1,0 +1,12 @@
+---
+# tasks file for role-mkdir
+
+- name: 'Creating directories'
+  file:
+    path: "{{item.path}}"
+    state: directory
+    mode: "{{item.mode}}"
+    owner: "{{item.owner}}"
+    group: "{{item.group}}"
+
+  with_items: '{{mkdir}}'
